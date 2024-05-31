@@ -17,8 +17,9 @@ const config: Config = {
 
       colors: {
         black: "#414141",
-        white: "#FEFEFE",
         fadedBlack: "#606060",
+        gray: "#363D41",
+        white: "#FEFEFE",
         fadedWhite: "#F8F8F8",
         purple: "#390B6F",
         fadedPurple: "#9C7BC3",
@@ -27,6 +28,10 @@ const config: Config = {
 
       borderWidth: {
         2: "2px",
+      },
+
+      borderRadius: {
+        100: "100%",
       },
     },
   },
