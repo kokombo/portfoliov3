@@ -187,3 +187,11 @@ export const INTRO = {
   description:
     "Committed to Developing High-Quality Software Solutions, with a Passion for User-Centric Design and a Strong Enthusiasm for Startup Innovation.",
 };
+
+export const ABOUT = {
+  paragraph1:
+    "I'm Samuel, a proficient software developer and startup enthusiast with a passion for creating user-friendly and optimized web experiences. With a strong foundation in various programming languages and frameworks, I thrive on solving complex problems and bringing innovative ideas to life. My journey in the tech world has been driven by a relentless pursuit of excellence and a keen interest in the latest industry trends.",
+
+  paragraph2:
+    "Over the years, I have honed my skills in developing scalable and efficient web applications, always keeping the end-user experience at the forefront. I believe that a well-crafted website or application can make a significant impact, and I am dedicated to building solutions that are not only functional but also intuitive and enjoyable to use.",
+};
