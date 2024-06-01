@@ -1,28 +1,12 @@
-import { ColorButton, ThemeSwitch } from "@/components";
-import { ICONS } from "@/constant";
-import Image from "next/image";
+import { ColorButton, Profile, ThemeSwitch } from "@/components";
 
 const NavigationBar = () => {
   return (
-    <nav className="w-full px-24 mt-6 flex items-center justify-between">
+    <nav className="w-full px-4 md:px-6 lg:px-24 mt-6 flex items-center justify-between">
       <div />
 
-      <div className="bg-white dark:bg-fadedGray dark:opacity-50 rounded-[50px] py-4 px-8 flex items-center justify-between w-1/2">
-        <span className="flex items-center gap-4">
-          <Image
-            src={ICONS.samuel}
-            alt="profile image"
-            priority
-            quality={100}
-            height={48}
-            width={48}
-            className="rounded-100"
-          />
-
-          <h5 className="text-black dark:text-white text-lg font-medium">
-            Samuel
-          </h5>
-        </span>
+      <div className="bg-white dark:bg-fadedGray dark:opacity-50 rounded-[50px] py-3 lg:py-4 px-6 lg:px-8 flex items-center justify-between w-4/5 lg:w-1/2">
+        <Profile />
 
         <ColorButton label="Resume" to="" />
       </div>

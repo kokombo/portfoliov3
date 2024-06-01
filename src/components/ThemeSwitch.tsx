@@ -25,7 +25,7 @@ const ThemeSwitch = () => {
     <button
       type="button"
       onClick={toggleTheme}
-      className="absolute right-8 top-12"
+      className="absolute top-8 right-4 lg:right-8 lg:top-12"
     >
       <Image
         src={resolvedTheme === "dark" ? ICONS.darkmode : ICONS.lightmode}

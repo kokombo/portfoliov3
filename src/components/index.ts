@@ -3,5 +3,15 @@ import ColorButton from "./ColorButton";
 import TransparentButton from "./TransparentButton";
 import ThemeSwitch from "./ThemeSwitch";
 import ProjectCard from "./ProjectCard";
+import Profile from "./Profile";
+import SectionHeading from "./SectionHeading";
 
-export { TextGroup, ColorButton, TransparentButton, ThemeSwitch, ProjectCard };
+export {
+  TextGroup,
+  ColorButton,
+  TransparentButton,
+  ThemeSwitch,
+  ProjectCard,
+  Profile,
+  SectionHeading,
+};

@@ -179,3 +179,11 @@ export const socials: SocialsType[] = [
     label: "Substack",
   },
 ];
+
+export const INTRO = {
+  heading: "Hi, I'm Samuel",
+  subheading:
+    "A Proficient Software developer & startup enthusiast focused on building user-friendly and optimized web experiences.",
+  description:
+    "Committed to Developing High-Quality Software Solutions, with a Passion for User-Centric Design and a Strong Enthusiasm for Startup Innovation.",
+};

@@ -26,6 +26,7 @@ const config: Config = {
         purple: "#390B6F",
         fadedPurple: "#9C7BC3",
         violet: "#49108B",
+        fadedViolet: "#855FB1",
       },
 
       borderWidth: {

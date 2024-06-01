@@ -21,7 +21,7 @@ const ProjectCard = (props: Props) => {
           {props.meta}{" "}
         </p>
 
-        <span className="inline-block py-2 px-4 mb-12 text-3xl rounded-100 bg-gradient-to-r from-fadedPurple to-purple">
+        <span className="inline-block py-2 px-4 mb-12 text-3xl rounded-100 bg-gradient-to-r from-fadedPurple to-purple hover:scale-105 transition-transform duration-300 ease-in-out">
           ↗
         </span>
       </article>
