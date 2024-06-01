@@ -1,24 +1,39 @@
-import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 import { useTheme } from "next-themes";
+import Image from "next/image";
+import { ICONS } from "@/constant";
+import { useEffect, useState } from "react";
 
 const ThemeSwitch = () => {
-  const { theme, setTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const toggleTheme = () => {
-    if (theme === "dark") {
+    if (resolvedTheme === "dark") {
       setTheme("light");
     } else {
       setTheme("dark");
     }
   };
 
+  if (!mounted) return null;
+
   return (
-    <button type="button" onClick={toggleTheme}>
-      {theme === "light" ? (
-        <MdOutlineLightMode color="#9C7BC3" height={30} width={30} />
-      ) : (
-        <MdOutlineDarkMode color="#F8F8F8" height={30} width={30} />
-      )}
+    <button
+      type="button"
+      onClick={toggleTheme}
+      className="absolute right-8 top-6"
+    >
+      <Image
+        src={resolvedTheme === "dark" ? ICONS.darkmode : ICONS.lightmode}
+        alt="theme mode icon"
+        height={20}
+        width={20}
+        priority
+      />
     </button>
   );
 };
