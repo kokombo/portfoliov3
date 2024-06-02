@@ -1,5 +1,8 @@
 import images from "./images";
 import slugify from "slugify";
+import { SiSubstack, SiLinkedin } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 export const projectData: ProjectType[] = [
   {
@@ -160,23 +163,27 @@ export const projectData: ProjectType[] = [
 export const socials: SocialsType[] = [
   {
     id: "1",
-    url: "https://github.com/BowaDAO",
+    url: "https://github.com/kokombo",
     label: "GitHub",
+    icon: FaGithub,
   },
   {
     id: "2",
     url: "https://www.twitter.com/Oluwanbowa",
     label: "Twitter",
+    icon: BsTwitterX,
   },
   {
     id: "3",
     url: "https://www.linkedin.com/in/samuel-ibrahim-84154818b/",
     label: "LinkedIn",
+    icon: SiLinkedin,
   },
   {
     id: "4",
     url: "https://oluwanbowa.substack.com/",
     label: "Substack",
+    icon: SiSubstack,
   },
 ];
 
@@ -194,4 +201,8 @@ export const ABOUT = {
 
   paragraph2:
     "Over the years, I have honed my skills in developing scalable and efficient web applications, always keeping the end-user experience at the forefront. I believe that a well-crafted website or application can make a significant impact, and I am dedicated to building solutions that are not only functional but also intuitive and enjoyable to use.",
+};
+
+export const CTA = {
+  text: "Feel free to connect. Let's discuss software architecture, development process, code mentorship, developer communities, or any other tech topics.",
 };

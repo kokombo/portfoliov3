@@ -5,6 +5,7 @@ import ThemeSwitch from "./ThemeSwitch";
 import ProjectCard from "./ProjectCard";
 import Profile from "./Profile";
 import SectionHeading from "./SectionHeading";
+import SocialCard from "./SocialCard";
 
 export {
   TextGroup,
@@ -14,4 +15,5 @@ export {
   ProjectCard,
   Profile,
   SectionHeading,
+  SocialCard,
 };

@@ -87,6 +87,8 @@ import croch4 from "../../public/assets/images/croch4.png";
 import croch5 from "../../public/assets/images/croch5.png";
 import croch6 from "../../public/assets/images/croch6.png";
 
+import ctabackground from "../../public/assets/images/ctabackground.png";
+
 const images = {
   bowal1,
   bowal2,
@@ -176,6 +178,8 @@ const images = {
   croch4,
   croch5,
   croch6,
+
+  ctabackground,
 };
 
 export default images;

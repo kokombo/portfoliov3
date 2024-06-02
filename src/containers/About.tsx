@@ -3,8 +3,8 @@ import { ABOUT } from "@/constant/data";
 
 const About = () => {
   return (
-    <section className="px-4 py-10 md:px-6 md:py-12 lg:px-24 lg:py-14 grid grid-cols-2 gap-4 md:gap-6 lg:gap-24">
-      <div>
+    <section className="section grid grid-cols-2 gap-4 md:gap-6 lg:gap-24">
+      <article>
         <SectionHeading heading="About Me" />
 
         <p className="mb-6 text-fadedBlack dark:text-fadedWhite text-lg">
@@ -16,9 +16,9 @@ const About = () => {
         </p>
 
         <ColorButton to="" label="Read more" />
-      </div>
+      </article>
 
-      <div></div>
+      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-full w-full"></article>
     </section>
   );
 };

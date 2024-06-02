@@ -3,7 +3,7 @@ import { INTRO } from "@/constant/data";
 
 const Header = () => {
   return (
-    <header className="px-4 md:px-6 md:py-24 lg:p-24 flex flex-col items-center justify-center text-center gap-8">
+    <header className="section flex flex-col items-center justify-center text-center gap-8">
       <h1 className="text-lg font-medium text-fadedViolet">{INTRO.heading}</h1>
 
       <h2 className="text-3xl md:text-5xl leading-[60px] font-medium text-black dark:text-white capitalize">

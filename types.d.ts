@@ -1,3 +1,5 @@
+// import { IconType } from "react-icons";
+
 type ProjectType = {
   id: string;
   image: string | StaticImageData;
@@ -20,4 +22,5 @@ type SocialsType = {
   id: string;
   url: string;
   label: string;
+  icon: IconType;
 };

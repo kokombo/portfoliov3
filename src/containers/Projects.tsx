@@ -3,7 +3,7 @@ import { projectData as projects } from "@/constant/data";
 
 const Projects = () => {
   return (
-    <section className="px-4 py-10 md:px-6 md:py-12 lg:px-24 lg:py-14">
+    <section className="section">
       <SectionHeading heading="A Few Side Projects" />
 
       <div className="grid grid-cols-2 gap-6">

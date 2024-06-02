@@ -1,0 +1,22 @@
+import Link from "next/link";
+import { IconType } from "react-icons";
+
+type Props = {
+  icon: IconType;
+  name: string;
+  href: string;
+};
+
+const SocialCard = (props: Props) => {
+  return (
+    <Link href={props.href} target="_blank">
+      <article className="flex items-center gap-4">
+        <props.icon height={32} width={32} />
+
+        {props.name}
+      </article>
+    </Link>
+  );
+};
+
+export default SocialCard;
