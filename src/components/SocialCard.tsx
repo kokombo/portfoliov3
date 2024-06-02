@@ -13,7 +13,7 @@ const SocialCard = (props: Props) => {
       <article className="flex items-center gap-4">
         <props.icon height={32} width={32} />
 
-        {props.name}
+        <span className="text-black dark:text-white">{props.name}</span>
       </article>
     </Link>
   );
