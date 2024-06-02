@@ -1,6 +1,6 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import Image from "next/image";
 import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
 
 type Props = {
   image?: StaticImport;
@@ -21,8 +21,8 @@ const ProjectCard = (props: Props) => {
           {props.meta}{" "}
         </p>
 
-        <span className="inline-block py-2 px-4 mb-12 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple hover:scale-105 transition-transform duration-300 ease-in-out">
-          ↗
+        <span className="inline-block p-3 mb-12 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple hover:scale-105 transition-transform duration-300 ease-in-out">
+          <GoArrowUpRight height={16} width={12} />
         </span>
       </article>
     </Link>

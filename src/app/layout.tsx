@@ -1,12 +1,10 @@
 "use client";
 
 // import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers";
 import { CallToAction, Footer, NavigationBar } from "@/containers";
-
-const inter = Inter({ subsets: ["latin"] });
+import { NeutonRegular, NeutonBold } from "./font";
 
 // export const metadata: Metadata = {
 //   title:
@@ -22,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={NeutonRegular.className}>
         <ThemeProvider>
           <NavigationBar />
           {children}
