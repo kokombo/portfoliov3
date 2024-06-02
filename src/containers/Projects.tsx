@@ -6,7 +6,7 @@ const Projects = () => {
     <section className="section">
       <SectionHeading heading="A Few Side Projects" />
 
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {projects.slice(0, 4).map((project) => {
           return (
             <ProjectCard
