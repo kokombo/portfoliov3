@@ -88,6 +88,7 @@ import croch5 from "../../public/assets/images/croch5.png";
 import croch6 from "../../public/assets/images/croch6.png";
 
 import ctabackground from "../../public/assets/images/ctabackground.png";
+import herobackground from "../../public/assets/images/herobackground.png";
 
 const images = {
   bowal1,
@@ -180,6 +181,7 @@ const images = {
   croch6,
 
   ctabackground,
+  herobackground,
 };
 
 export default images;
