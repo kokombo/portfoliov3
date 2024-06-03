@@ -18,7 +18,7 @@ const About = () => {
         <ColorButton to="" label="Read more" />
       </article>
 
-      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-full w-full"></article>
+      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-500 lg:h-full w-full"></article>
     </section>
   );
 };

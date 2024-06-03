@@ -38,6 +38,10 @@ const config: Config = {
       borderRadius: {
         100: "100%",
       },
+
+      height: {
+        500: "500px",
+      },
     },
   },
   plugins: [],
