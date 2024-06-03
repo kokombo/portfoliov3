@@ -13,7 +13,7 @@ const NavigationBar = () => {
 
       <div />
 
-      <div className="absolute top-1/2 right-4 lg:right-8 transform -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute top-1/2 right-2 lg:right-8 transform -translate-x-1/2 -translate-y-1/2">
         <ThemeSwitch />
       </div>
     </nav>

@@ -3,7 +3,7 @@ import { ABOUT } from "@/constant/data";
 
 const About = () => {
   return (
-    <section className="section grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 lg:gap-24">
+    <section className="section grid grid-cols-1 lg:grid-cols-2 gap-y-4 md:gap-y-6 lg:gap-24">
       <article>
         <SectionHeading heading="About Me" />
 
