@@ -89,6 +89,8 @@ import croch6 from "../../public/assets/images/croch6.png";
 
 import ctabackground from "../../public/assets/images/ctabackground.png";
 import herobackground from "../../public/assets/images/herobackground.png";
+import herobackgrounddark from "../../public/assets/images/herobackgrounddark.png";
+import herobackgroundlight from "../../public/assets/images/herobackgroundlight.png";
 
 const images = {
   bowal1,
@@ -182,6 +184,8 @@ const images = {
 
   ctabackground,
   herobackground,
+  herobackgrounddark,
+  herobackgroundlight,
 };
 
 export default images;

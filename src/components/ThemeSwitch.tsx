@@ -22,11 +22,7 @@ const ThemeSwitch = () => {
   if (!mounted) return null;
 
   return (
-    <button
-      type="button"
-      onClick={toggleTheme}
-      className="absolute top-8 right-4 lg:right-8 lg:top-12"
-    >
+    <button type="button" onClick={toggleTheme}>
       <Image
         src={resolvedTheme === "dark" ? ICONS.darkmode : ICONS.lightmode}
         alt="theme mode icon"
