@@ -1,6 +1,8 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
+import { motion } from "framer-motion";
+import { Slide } from "react-awesome-reveal";
 
 type Props = {
   image?: StaticImport;
@@ -21,9 +23,12 @@ const ProjectCard = (props: Props) => {
           {props.meta}{" "}
         </p>
 
-        <span className="inline-block p-3 mb-8 lg:mb-12 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple hover:scale-105 transition-transform duration-300 ease-in-out">
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          className="inline-block p-3 mb-8 lg:mb-10 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
+        >
           <GoArrowUpRight height={16} width={12} />
-        </span>
+        </motion.div>
       </article>
     </Link>
   );
