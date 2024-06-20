@@ -206,3 +206,27 @@ export const ABOUT = {
 export const CTA = {
   text: "Feel free to connect. Let's discuss software architecture, development process, code mentorship, developer communities, or any other tech topics.",
 };
+
+export const skills = [
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express JS",
+  "HTML",
+  "CSS",
+  "Tailwind CSS",
+  "MongoDB",
+  "PostgreSQL",
+  "Redis",
+  "Redux",
+  "Redux Toolkit",
+  "Firebase",
+  "Prisma",
+  "Supabase",
+  "Socket.io",
+  "Docker",
+  "Git",
+  "Jest",
+];

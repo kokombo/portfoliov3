@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard";
 import Profile from "./Profile";
 import SectionHeading from "./SectionHeading";
 import SocialCard from "./SocialCard";
+import TechnicalSkill from "./TechnicalSkill";
 
 export {
   TextGroup,
@@ -16,4 +17,5 @@ export {
   Profile,
   SectionHeading,
   SocialCard,
+  TechnicalSkill,
 };

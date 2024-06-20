@@ -8,12 +8,12 @@ const Header = () => {
 
   return (
     <header
-      className={twMerge(
-        theme === "light"
-          ? "bg-[url('/assets/images/herobackgroundlight.png')]"
-          : " bg-[url('/assets/images/herobackgrounddark.png')]",
-        "bg-no-repeat bg-center bg-cover bg-[#FFFFFF] dark:bg-[#000000]"
-      )}
+    // className={twMerge(
+    //   theme === "light"
+    //     ? "bg-[url('/assets/images/herobackgroundlight.png')]"
+    //     : " bg-[url('/assets/images/herobackgrounddark.png')]",
+    //   "bg-no-repeat bg-center bg-cover bg-[#FFFFFF] dark:bg-[#000000]"
+    // )}
     >
       <NavigationBar />
 
