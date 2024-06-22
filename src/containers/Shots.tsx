@@ -7,7 +7,7 @@ type Props = {
 const Shots = (props: Props) => {
   return (
     <section>
-      <h2 className="mb-10 text-4xl font-medium text-black dark:text-white">
+      <h2 className="mb-8 text-4xl font-medium text-black dark:text-white">
         Project Shots
       </h2>
 

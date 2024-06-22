@@ -8,6 +8,7 @@ import SectionHeading from "./SectionHeading";
 import SocialCard from "./SocialCard";
 import TechnicalSkill from "./TechnicalSkill";
 import ScrollTop from "./ScrollTop";
+import PreviewLink from "./PreviewLink";
 
 export {
   TextGroup,
@@ -20,4 +21,5 @@ export {
   SocialCard,
   TechnicalSkill,
   ScrollTop,
+  PreviewLink,
 };

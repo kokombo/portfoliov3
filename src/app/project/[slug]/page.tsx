@@ -1,6 +1,6 @@
 "use client";
 
-import { ScrollTop, TextGroup } from "@/components";
+import { PreviewLink, ScrollTop, TextGroup } from "@/components";
 import { useParams } from "next/navigation";
 import { projectData } from "@/constant/data";
 import { Fragment } from "react";
@@ -26,8 +26,18 @@ const ProjectPage = () => {
             subheading={currentProject.description}
           />
 
-          <div>
+          <div className="flex justify-between items-center ">
             <TextGroup heading="Stack" subheading={currentProject.stack} />
+
+            <div className="flex items-center gap-8">
+              {currentProject.live && (
+                <PreviewLink label="Live Preview" href={currentProject.live} />
+              )}
+
+              {currentProject.github && (
+                <PreviewLink label="GitHub" href={currentProject.github} />
+              )}
+            </div>
           </div>
 
           <Shots currentProject={currentProject} />
