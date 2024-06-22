@@ -5,6 +5,7 @@ import CallToAction from "./CallToAction";
 import Footer from "./Footer";
 import Projects from "./Projects";
 import TechnicalSkills from "./TechnicalSkills";
+import Shots from "./Shots";
 
 export {
   NavigationBar,
@@ -14,4 +15,5 @@ export {
   Footer,
   Projects,
   TechnicalSkills,
+  Shots,
 };

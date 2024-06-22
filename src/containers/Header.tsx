@@ -15,8 +15,6 @@ const Header = () => {
     //   "bg-no-repeat bg-center bg-cover bg-[#FFFFFF] dark:bg-[#000000]"
     // )}
     >
-      <NavigationBar />
-
       <Hero />
     </header>
   );

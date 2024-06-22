@@ -7,6 +7,7 @@ import Profile from "./Profile";
 import SectionHeading from "./SectionHeading";
 import SocialCard from "./SocialCard";
 import TechnicalSkill from "./TechnicalSkill";
+import ScrollTop from "./ScrollTop";
 
 export {
   TextGroup,
@@ -18,4 +19,5 @@ export {
   SectionHeading,
   SocialCard,
   TechnicalSkill,
+  ScrollTop,
 };

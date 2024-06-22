@@ -7,13 +7,13 @@ const Projects = () => {
       <SectionHeading heading="A Few Side Projects" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {projects.slice(0, 4).map((project) => {
+        {projects.map((project) => {
           return (
             <ProjectCard
               key={project.id.toString()}
               title={project.title}
               meta={project.description}
-              to={project.slug}
+              to={`/project/${project.slug}`}
             />
           );
         })}

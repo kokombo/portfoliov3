@@ -2,7 +2,7 @@
 
 import "./globals.css";
 import { ThemeProvider } from "@/providers";
-import { CallToAction, Footer } from "@/containers";
+import { CallToAction, Footer, NavigationBar } from "@/containers";
 import { NeutonRegular, NeutonBold } from "./font";
 
 export default function RootLayout({
@@ -14,6 +14,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={NeutonRegular.className}>
         <ThemeProvider>
+          <NavigationBar />
           {children}
           <CallToAction />
           <Footer />
