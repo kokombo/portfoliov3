@@ -15,7 +15,7 @@ const About = () => {
           {ABOUT.paragraph2}
         </p>
 
-        <ColorButton to="" label="Read more" />
+        <ColorButton to="/about" label="Read more" />
       </article>
 
       <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-500 lg:h-full w-full"></article>

@@ -5,7 +5,7 @@ import Link from "next/link";
 const Profile = () => {
   return (
     <Link href="/">
-      <span className="flex items-center gap-2 lg:gap-4">
+      <span className="flex items-center gap-2">
         <Image
           src={ICONS.samuel}
           alt="profile image"
