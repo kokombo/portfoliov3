@@ -9,6 +9,10 @@ import SocialCard from "./SocialCard";
 import TechnicalSkill from "./TechnicalSkill";
 import ScrollTop from "./ScrollTop";
 import PreviewLink from "./PreviewLink";
+import AboutMeText from "./AboutMeText";
+import ExperienceCard from "./ExperienceCard";
+import Divider from "./Divider";
+import SlideItem from "./SlideItem";
 
 export {
   TextGroup,
@@ -22,4 +26,8 @@ export {
   TechnicalSkill,
   ScrollTop,
   PreviewLink,
+  AboutMeText,
+  ExperienceCard,
+  Divider,
+  SlideItem,
 };

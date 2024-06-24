@@ -17,21 +17,23 @@ const ProjectPage = () => {
     <Fragment>
       {currentProject && (
         <main className="section flex flex-col gap-10">
-          <TextGroup
-            heading="Project Title"
-            subheading={currentProject.title}
-          />
-          <TextGroup
-            heading="Description"
-            subheading={currentProject.description}
-          />
+          <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-end lg:gap-4">
+            <article className="flex flex-col gap-10">
+              <TextGroup
+                heading="Project Title"
+                subheading={currentProject.title}
+              />
+              <TextGroup
+                heading="Description"
+                subheading={currentProject.description}
+              />
 
-          <div className="flex justify-between items-center ">
-            <TextGroup heading="Stack" subheading={currentProject.stack} />
+              <TextGroup heading="Stack" subheading={currentProject.stack} />
+            </article>
 
             <div className="flex items-center gap-8">
               {currentProject.live && (
-                <PreviewLink label="Live Preview" href={currentProject.live} />
+                <PreviewLink label="Preview" href={currentProject.live} />
               )}
 
               {currentProject.github && (

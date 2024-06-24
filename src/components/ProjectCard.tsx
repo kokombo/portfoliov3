@@ -18,12 +18,12 @@ const ProjectCard = (props: Props) => {
           {props.title}
         </h6>
 
-        <p className="text-fadedBlack dark:text-fadedWhite text-base mb-6">
+        <p className="text-fadedBlack dark:text-fadedWhite mb-6">
           {props.meta}{" "}
         </p>
 
         <motion.div
-          whileHover={{ scale: 1.2 }}
+          whileHover={{ scale: 1.1 }}
           className="inline-block p-3 mb-8 lg:mb-10 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
         >
           <GoArrowUpRight height={16} width={12} color="white" />

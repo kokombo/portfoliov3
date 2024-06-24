@@ -3,7 +3,7 @@
 import "./globals.css";
 import { ThemeProvider } from "@/providers";
 import { CallToAction, Footer, NavigationBar } from "@/containers";
-import { NeutonRegular, NeutonBold } from "./font";
+import { NeutonRegular } from "./font";
 
 export default function RootLayout({
   children,
@@ -12,6 +12,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Samuel Ibrahim Oluwanbowa | Full Stack Developer</title>
+
+        <meta charSet="utf-8" />
+
+        <link
+          rel="icon"
+          href="/assets/icons/samuel.png"
+          type="image/png"
+          sizes="any"
+        />
+      </head>
+
       <body className={NeutonRegular.className}>
         <ThemeProvider>
           <NavigationBar />

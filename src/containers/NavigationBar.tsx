@@ -8,7 +8,11 @@ const NavigationBar = () => {
       <div className="bg-fadedWhite dark:bg-fadedGray dark:opacity-50 rounded-[50px] py-3 lg:py-4 px-6 lg:px-8 flex items-center justify-between w-full lg:w-1/2">
         <Profile />
 
-        <ColorButton label="Resume" to="" />
+        <ColorButton
+          label="Resume"
+          to="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"
+          target="_blank"
+        />
       </div>
 
       <div />

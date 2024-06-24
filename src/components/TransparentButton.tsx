@@ -11,7 +11,7 @@ const TransparentButton = (props: Props) => {
   return (
     <Link
       href={props.to}
-      className="py-4 px-8 text-base rounded-3xl border-2 border-purple bg-inherit text-violet dark:text-fadedWhite"
+      className="py-4 px-8 text-base rounded-3xl border-[1px] border-purple bg-inherit text-violet dark:text-fadedWhite hover:border-fadedPurple"
     >
       {props.leftIcon} {props.label}{" "}
       <span className="text-purple dark:text-white"> {props.rightIcon}</span>

@@ -1,4 +1,4 @@
-import useScrollHeight from "@/utilities/hooks/useScrollHeight";
+import { useScrollHeight } from "@/utilities/hooks";
 import { Fragment } from "react";
 import { FaArrowUp } from "react-icons/fa";
 

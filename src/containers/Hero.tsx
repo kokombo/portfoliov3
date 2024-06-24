@@ -10,11 +10,15 @@ const Hero = () => {
         {INTRO.subheading}
       </h2>
 
-      <h6 className="text-lg max-w-[650px] text-fadedBlack dark:text-fadedWhite">
+      <h6 className="lg:text-lg max-w-[650px] text-fadedBlack dark:text-fadedWhite">
         {INTRO.description}
       </h6>
 
-      <ColorButton label="Let's Talk" leftIcon="👋" to="" />
+      <ColorButton
+        label="Let's Talk"
+        leftIcon="👋"
+        to="mailto:samuelibrahim3029@gmail.com"
+      />
     </section>
   );
 };

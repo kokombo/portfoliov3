@@ -9,7 +9,11 @@ const CallToAction = () => {
           {CTA.text}
         </h3>
 
-        <ColorButton label="Let's talk" to="" leftIcon="👋" />
+        <ColorButton
+          label="Let's talk"
+          to="mailto:samuelibrahim3029@gmail.com"
+          leftIcon="👋"
+        />
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import TechnicalSkills from "./TechnicalSkills";
 import Shots from "./Shots";
+import Experience from "./Experience";
 
 export {
   NavigationBar,
@@ -16,4 +17,5 @@ export {
   Projects,
   TechnicalSkills,
   Shots,
+  Experience,
 };

@@ -230,3 +230,38 @@ export const skills = [
   "Git",
   "Jest",
 ];
+
+export const experiences: Experience[] = [
+  {
+    startDate: "Nov 2023",
+    endDate: "April 2024",
+    position: "Mobile Front-End Developer",
+    company: "The Digital Hacker, New Jersey, United States",
+    outlines: [
+      "● Developed the client side of a card scanner application using React Native, Redux Toolkit, and TensorFlow",
+      "● Implemented AI technology for scanning complementary cards, enabling efficient contact management.",
+    ],
+  },
+
+  {
+    startDate: "Dec 2022",
+    endDate: "March 2023",
+    position: "Technical Writer",
+    company: "ZipScore, Berlin, Germany",
+    outlines: [
+      "● Increased customer base by developing valuable user guides for Zip Code targeted ads on popular social platforms. ",
+      "● Enhanced customer experience by building detailed documentation for an AI tool.",
+    ],
+  },
+
+  {
+    startDate: "May 2021",
+    endDate: "Dec 2022",
+    position: "Web Developer",
+    company: "Mango Capitals LLC, Minniesota, United States",
+    outlines: [
+      "● Developed the client side of a card scanner application using React.JS, React Native, Redux Toolkit, and TensorFlow",
+      "● Implemented AI technology for scanning complementary cards, enabling efficient contact management.",
+    ],
+  },
+];

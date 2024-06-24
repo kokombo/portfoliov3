@@ -1,5 +1,3 @@
-// import { IconType } from "react-icons";
-
 type ProjectType = {
   id: string;
   image: string | StaticImageData;
@@ -12,15 +10,17 @@ type ProjectType = {
   github?: string;
 };
 
-// export interface IconsType {
-//   icon: ReactNode;
-//   url: string;
-//   name: string;
-// }
-
 type SocialsType = {
   id: string;
   url: string;
   label: string;
   icon: IconType;
+};
+
+type Experience = {
+  startDate: string;
+  endDate: string;
+  position: string;
+  company: string;
+  outlines: string[];
 };

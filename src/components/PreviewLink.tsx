@@ -11,7 +11,7 @@ const PreviewLink = (props: Props) => {
     <Link
       href={props.href}
       target="_blank"
-      className="text-purple dark:text-white flex justify-center items-center gap-2 border-purple border-[1px] py-4 px-8 rounded-[30px] "
+      className="text-purple dark:text-white flex justify-center items-center gap-2 border-purple border-[1px] py-4 px-8 rounded-[30px] hover:border-fadedPurple"
     >
       {props.label}{" "}
       <GoArrowUpRight
