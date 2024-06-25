@@ -17,12 +17,7 @@ export default function RootLayout({
 
         <meta charSet="utf-8" />
 
-        <link
-          rel="icon"
-          href="/assets/icons/samuel.png"
-          type="image/png"
-          sizes="any"
-        />
+        <link rel="icon" href="/favicon.ico" type="image/ico" sizes="any" />
       </head>
 
       <body className={NeutonRegular.className}>

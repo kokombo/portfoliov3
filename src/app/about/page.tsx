@@ -12,7 +12,10 @@ const AboutPage = () => {
         <div className="flex items-baseline justify-between">
           <SectionHeading heading="Experience" />
 
-          <PreviewLink label="Resume" href="" />
+          <PreviewLink
+            label="Resume"
+            href="https://drive.google.com/file/d/1yb9n6K34IQdJEHoui6tXxQmcM9I62m1h/view?usp=sharing"
+          />
         </div>
 
         <Experience />
