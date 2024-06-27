@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useScrollHeight = () => {
-  let initialState;
+  let initialState: number = 0;
 
   if (typeof window !== "undefined") {
     initialState = window.scrollY;
