@@ -1,4 +1,5 @@
 import { AboutMeText, ColorButton, SlideItem } from "@/components";
+import { images } from "@/constant";
 import Image from "next/image";
 
 const About = () => {
@@ -16,8 +17,8 @@ const About = () => {
         <article className="bg-fadedWhite dark:bg-gray rounded-3xl  h-500 lg:h-full w-full">
           <div className="relative h-full w-full">
             <Image
-              src="/assets/images/samuel.jpeg"
-              alt="samuel ibrahim"
+              src={images.code}
+              alt="coding laptop"
               fill
               className="rounded-3xl"
               quality={100}

@@ -92,6 +92,8 @@ import herobackground from "../../public/assets/images/herobackground.png";
 import herobackgrounddark from "../../public/assets/images/herobackgrounddark.png";
 import herobackgroundlight from "../../public/assets/images/herobackgroundlight.png";
 
+import code from "../../public/assets/images/coder.jpg";
+
 const images = {
   bowal1,
   bowal2,
@@ -186,6 +188,8 @@ const images = {
   herobackground,
   herobackgrounddark,
   herobackgroundlight,
+
+  code,
 };
 
 export default images;
