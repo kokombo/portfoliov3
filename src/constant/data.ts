@@ -197,14 +197,14 @@ export const INTRO = {
 
 export const ABOUT = {
   paragraph1:
-    "I'm Samuel, a proficient software developer and startup enthusiast with a passion for creating user-friendly and optimized web experiences. With a strong foundation in various programming languages and frameworks, I thrive on solving complex problems and bringing innovative ideas to life. My journey in the tech world has been driven by a relentless pursuit of excellence and a keen interest in the latest industry trends.",
+    "Samuel is a proficient full stack developer passionate about creating user-friendly and optimized web experiences. With a solid background in several programming languages and frameworks, I thrive on solving complex problems and bringing innovative ideas to life. My journey in the tech world has been driven by a relentless pursuit of excellence.",
 
   paragraph2:
-    "Over the years, I have honed my skills in developing scalable and efficient web applications, always keeping the end-user experience at the forefront. I believe that a well-crafted website or application can make a significant impact, and I am dedicated to building solutions that are not only functional but also intuitive and enjoyable to use.",
+    "Over the years, I have worked with several agencies, companies, and individuals, contributing to the development of scalable and efficient web applications. I thrive in a fast-paced environment and am eager to contribute to an ambitious team. Let's connect to discuss how my passion and skills align with your goals.",
 };
 
 export const CTA = {
-  text: "Feel free to connect. Let's discuss software architecture, development process, code mentorship, developer communities, or any other tech topics.",
+  text: "Would you like to discuss hiring me for your project/team? I am excited to hear from you. Send me a quick message via email or any of my socials.",
 };
 
 export const skills = [
@@ -217,6 +217,8 @@ export const skills = [
   "HTML",
   "CSS",
   "Tailwind CSS",
+  "React Native",
+  "Expo",
   "MongoDB",
   "PostgreSQL",
   "Redis",

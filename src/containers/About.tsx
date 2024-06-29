@@ -20,6 +20,7 @@ const About = () => {
               src={images.code}
               alt="coding laptop"
               fill
+              priority
               className="rounded-3xl"
               quality={100}
               sizes="any"

@@ -13,7 +13,7 @@ const CallToAction = () => {
           <ColorButton
             label="Let's talk"
             to="mailto:samuelibrahim3029@gmail.com"
-            leftIcon="👋"
+            leftIcon="😊"
           />
         </div>
       </section>
