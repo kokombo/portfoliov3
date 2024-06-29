@@ -29,6 +29,8 @@ const ThemeSwitch = () => {
         height={20}
         width={20}
         priority
+        sizes="any"
+        loading="eager"
       />
     </button>
   );
