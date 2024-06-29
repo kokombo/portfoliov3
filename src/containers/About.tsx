@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="section grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+    <section className="section grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 overflow-hidden">
       <SlideItem position="left">
         <article>
           <AboutMeText />

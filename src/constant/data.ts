@@ -190,9 +190,9 @@ export const socials: SocialsType[] = [
 export const INTRO = {
   heading: "Hi, I'm Samuel ✌️",
   subheading:
-    "A Software developer & startup enthusiast passionate about translating business visions and ideas into user-friendly web experiences.",
+    "A Software developer & startup enthusiast passionate about translating business visions into user-friendly web experiences.",
   description:
-    "With years of experience in full-stack web development, I thrive in contributing to High-Quality, user-centric, and fully-functional Software Solutions.",
+    "With years of experience in full-stack web development, I thrive on contributing to high-quality, user-centric, and fully-functional web solutions.",
 };
 
 export const ABOUT = {

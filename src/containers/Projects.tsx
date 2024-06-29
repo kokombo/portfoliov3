@@ -3,7 +3,7 @@ import { projectData as projects } from "@/constant/data";
 
 const Projects = () => {
   return (
-    <section className="section">
+    <section className="section overflow-hidden">
       <SlideItem position="left">
         <SectionHeading heading="A Few Side Projects" />
       </SlideItem>
