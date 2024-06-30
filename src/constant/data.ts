@@ -204,7 +204,7 @@ export const ABOUT = {
 };
 
 export const CTA = {
-  text: "Would you like to discuss hiring me for your project/team? I am excited to hear from you. Send me a quick message via email or socials.",
+  text: "Want to discuss hiring me for your project/team? I am excited to hear from you. Send me a quick message via email or socials.",
 };
 
 export const skills = [
