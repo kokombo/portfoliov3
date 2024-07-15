@@ -15,7 +15,7 @@ const Shots = (props: Props) => {
         {props.currentProject.images?.map((shot, index) => {
           return (
             <Image
-              key={index}
+              key={index.toString()}
               src={shot}
               alt={`${props.currentProject.title}-${index}`}
               height={500}

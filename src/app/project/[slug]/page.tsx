@@ -1,5 +1,4 @@
 "use client";
-
 import { PreviewLink, ScrollTop, TextGroup } from "@/components";
 import { useParams } from "next/navigation";
 import { projectData } from "@/constant/data";

@@ -1,4 +1,4 @@
-import { useIsVisible } from "./useIsVisible";
+import { useIntersectingObserver } from "./useIntersectingObserver";
 import useScrollHeight from "./useScrollHeight";
 
-export { useIsVisible, useScrollHeight };
+export { useIntersectingObserver, useScrollHeight };

@@ -31,7 +31,7 @@ const ExperienceCard = (props: Props) => {
           {props.experience.outlines.map((outline, index) => {
             return (
               <ul
-                key={index}
+                key={index.toString()}
                 className="list-item text-fadedBlack dark:text-fadedWhite text-wrap"
               >
                 <li>{outline}</li>

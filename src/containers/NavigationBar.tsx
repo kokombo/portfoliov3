@@ -1,3 +1,4 @@
+"use client";
 import { ColorButton, Profile, ThemeSwitch } from "@/components";
 
 const NavigationBar = () => {

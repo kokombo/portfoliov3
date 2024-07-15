@@ -1,9 +1,12 @@
-"use client";
-
 import "./globals.css";
 import { ThemeProvider } from "@/providers";
 import { CallToAction, Footer, NavigationBar } from "@/containers";
 import { NeutonRegular } from "./font";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Samuel Ibrahim Oluwanbowa | Full Stack Developer",
+};
 
 export default function RootLayout({
   children,
@@ -12,14 +15,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <title>Samuel Ibrahim Oluwanbowa | Full Stack Developer</title>
-
-        <meta charSet="utf-8" />
-
-        <link rel="icon" href="/favicon.ico" type="image/ico" sizes="any" />
-      </head>
-
       <body className={NeutonRegular.className}>
         <ThemeProvider>
           <NavigationBar />

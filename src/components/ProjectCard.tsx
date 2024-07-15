@@ -1,4 +1,4 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
+import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";

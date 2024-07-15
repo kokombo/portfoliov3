@@ -9,6 +9,7 @@ const ScrollTop = () => {
     <Fragment>
       {scrollHeight && scrollHeight > 2500 && (
         <button
+          type="button"
           onClick={() =>
             window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
           }

@@ -1,7 +1,8 @@
+"use client";
 import { useState, useEffect } from "react";
 
 const useScrollHeight = () => {
-  let initialState: number = 0;
+  let initialState = 0;
 
   if (typeof window !== "undefined") {
     initialState = window.scrollY;

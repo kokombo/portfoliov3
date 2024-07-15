@@ -6,7 +6,7 @@ const Experience = () => {
     <div>
       {experiences.map((experience, index) => {
         return (
-          <div key={index} className="flex flex-col gap-8 lg:gap-16">
+          <div key={index.toString()} className="flex flex-col gap-8 lg:gap-16">
             <ExperienceCard experience={experience} index={index} />
             {index < experiences.length - 1 ? <Divider /> : null}
           </div>

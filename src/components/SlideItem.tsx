@@ -1,6 +1,7 @@
+"use client";
 import { twMerge } from "tailwind-merge";
 import { useEffect, useRef, useState } from "react";
-import { useIsVisible } from "@/utilities/hooks";
+import { useIntersectingObserver } from "@/utilities/hooks";
 
 const SlideItem = ({
   children,
@@ -12,16 +13,16 @@ const SlideItem = ({
   position: "bottom" | "top" | "right" | "left";
 }) => {
   const ref = useRef(null);
-  const isVisible = useIsVisible(ref);
+  const isIntersecting = useIntersectingObserver(ref);
   const [showed, setShowed] = useState(false);
 
   useEffect(() => {
-    if (isVisible) {
+    if (isIntersecting) {
       setShowed(true);
     }
-  }, [isVisible]);
+  }, [isIntersecting]);
 
-  let translate;
+  let translate = "";
 
   if (position === "bottom") {
     translate = showed ? "translate-y-0" : "translate-y-full";
