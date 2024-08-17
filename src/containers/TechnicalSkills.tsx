@@ -1,19 +1,17 @@
-import { SectionHeading, SlideItem, TechnicalSkill } from "@/components";
+import { SectionHeading, TechnicalSkill } from "@/components";
 import { skills } from "@/constant/data";
 
 const TechnicalSkills = () => {
   return (
-    <SlideItem position="bottom">
-      <section className="section overflow-hidden">
-        <SectionHeading heading="Technical Skills" />
+    <section className="section overflow-hidden">
+      <SectionHeading heading="Technical Skills" />
 
-        <div className="flex flex-wrap gap-x-4 gap-y-6 justify-center items-center bg-fadedWhite dark:bg-gray rounded-3xl px-3 py-12 lg:px-6 lg:py-24">
-          {skills.map((skill, index) => (
-            <TechnicalSkill key={index.toString()} label={skill} />
-          ))}
-        </div>
-      </section>
-    </SlideItem>
+      <div className="flex flex-wrap gap-x-4 gap-y-6 justify-center items-center bg-fadedWhite dark:bg-gray rounded-3xl px-3 py-12 lg:px-6 lg:py-24">
+        {skills.map((skill, index) => (
+          <TechnicalSkill key={index.toString()} label={skill} />
+        ))}
+      </div>
+    </section>
   );
 };
 

@@ -15,11 +15,11 @@ const ProjectCard = (props: Props) => {
   return (
     <Link href={props.to}>
       <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-80 ">
-        <h6 className="text-black dark:text-white text-2xl font-medium mb-6 pt-[120px]">
+        <h6 className="text-black dark:text-white text-2xl font-medium mb-6 pt-[115px]">
           {props.title}
         </h6>
 
-        <p className="text-fadedBlack dark:text-fadedWhite mb-6">
+        <p className="text-fadedBlack lg:text-lg dark:text-fadedWhite mb-6">
           {props.meta}{" "}
         </p>
 
