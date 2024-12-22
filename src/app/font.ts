@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { Arimo, Cabin, Inter_Tight } from "next/font/google";
 
 const NeutonRegular = localFont({
   src: [
@@ -18,4 +19,10 @@ const NeutonBold = localFont({
   ],
 });
 
-export { NeutonRegular, NeutonBold };
+const font = Arimo({
+  weight: ["400", "500", "700"],
+  style: "normal",
+  subsets: ["latin"],
+});
+
+export { NeutonRegular, NeutonBold, font };

@@ -12,9 +12,9 @@ const Hero = () => {
         {INTRO.subheading}
       </h2>
 
-      <h6 className="lg:text-lg max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide">
+      <h3 className="lg:text-lg max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide">
         {INTRO.description}
-      </h6>
+      </h3>
 
       <ColorButton
         label="Let's Talk"
