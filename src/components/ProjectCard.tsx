@@ -14,18 +14,18 @@ type Props = {
 const ProjectCard = (props: Props) => {
   return (
     <Link href={props.to}>
-      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 h-80 ">
-        <h3 className="text-black dark:text-white text-2xl font-medium mb-6 pt-[115px] tracking-wide">
+      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 py-10 space-y-6">
+        <h3 className="text-black dark:text-white text-2xl font-medium pt-20 tracking-wide">
           {props.title}
         </h3>
 
-        <p className="text-fadedBlack dark:text-fadedWhite mb-6 tracking-wide">
+        <p className="text-fadedBlack dark:text-fadedWhite tracking-wide">
           {props.meta}
         </p>
 
         <motion.div
           whileHover={{ scale: 1.1 }}
-          className="inline-block p-3 mb-8 lg:mb-10 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
+          className="inline-block text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
         >
           <GoArrowUpRight height={16} width={12} color="white" />
         </motion.div>
