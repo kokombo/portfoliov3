@@ -4,7 +4,7 @@ import { INTRO } from "@/constant/data";
 const Hero = () => {
   return (
     <section className="section flex flex-col items-center justify-center text-center gap-8">
-      <h1 className="text-lg font-medium text-fadedViolet tracking-wide">
+      <h1 className="text-lg font-bold text-fadedViolet tracking-wide">
         {INTRO.heading}
       </h1>
 
