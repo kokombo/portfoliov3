@@ -9,7 +9,7 @@ const AboutPage = () => {
 
       <section>
         <div className="flex items-baseline justify-between">
-          <SectionHeading heading="Experience" />
+          <SectionHeading>Experience</SectionHeading>
 
           <PreviewLink
             label="Resume"
