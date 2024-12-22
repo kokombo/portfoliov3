@@ -3,6 +3,8 @@ import { projectData } from "@/constant/data";
 import { Shots } from "@/containers";
 import { notFound } from "next/navigation";
 
+export const dynamic = "force-static";
+
 type Props = {
   params: { slug: string };
 };
@@ -19,7 +21,7 @@ const Page = async ({ params }: Props) => {
   if (!currentProject) notFound();
 
   return (
-    <main className="section flex flex-col gap-10">
+    <div className="section flex flex-col gap-10">
       <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-end lg:gap-4">
         <article className="flex flex-col gap-10">
           <TextGroup
@@ -48,7 +50,7 @@ const Page = async ({ params }: Props) => {
       <Shots currentProject={currentProject} />
 
       <ScrollTop />
-    </main>
+    </div>
   );
 };
 

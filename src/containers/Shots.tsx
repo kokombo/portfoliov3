@@ -20,7 +20,6 @@ const Shots = (props: Props) => {
               height={500}
               width={500}
               quality={100}
-              loading="lazy"
               placeholder="blur"
               className="object-contain "
             />
