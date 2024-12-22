@@ -8,7 +8,7 @@ const About = () => {
       <article>
         <AboutMeText />
 
-        <ColorButton to="/about" label="Read more" />
+        {/* <ColorButton to="/about" label="Read more" /> */}
       </article>
 
       <article className="bg-fadedWhite dark:bg-gray rounded-3xl  h-500 lg:h-full w-full">

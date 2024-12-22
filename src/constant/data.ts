@@ -189,22 +189,21 @@ export const socials: SocialsType[] = [
 
 export const INTRO = {
   heading: "Hi, I'm Samuel ✌️",
-  subheading:
-    "A Software developer & startup enthusiast passionate about translating business visions into user-friendly web experiences.",
+  subheading: "Software Developer | Full Stack Website Developer",
   description:
-    "With years of experience in full-stack web development, I thrive on contributing to high-quality, user-centric, and fully-functional web solutions.",
+    "I am currently exploring ideas to help small businesses work more efficiently with AI assistance. I am open to a remote full-time or freelance role.",
 };
 
 export const ABOUT = {
   paragraph1:
-    "Samuel is a proficient full stack developer passionate about creating user-friendly and optimized web experiences. With a solid background in several programming languages and frameworks, I thrive on solving complex problems and bringing innovative ideas to life. My journey in the tech world has been driven by a relentless pursuit of excellence.",
+    "Samuel is a skilled full stack developer who excel in creating optimized, user-friendly web experiences. I am particularly interested in exploring the endless possibilities of AI and building eCommerce solutions. I am currently building Shopivol to help small businesses operate at almost the same level as large corporations with AI assistance.",
 
   paragraph2:
-    "Over the years, I have worked with several agencies, companies, and individuals, contributing to the development of scalable and efficient web applications. I thrive in a fast-paced environment and am eager to contribute to an ambitious team. Let's connect to discuss how my passion and skills align with your goals.",
+    "When I'm not coding, you'll find me watching mysterios vidoes on YouTube, learning new cool tech tricks, or reading indie hackers' tweets/banters on X. I am currently open to remote opportunities. I thrive in a fast-paced environment and am eager to contribute to an ambitious team. Let's connect to discuss how my passion and skills align with your goals.",
 };
 
 export const CTA = {
-  text: "Want to discuss hiring me for your project/team? I am excited to hear from you. Send me a quick message via email or socials.",
+  text: "Want to discuss hiring me for your project or team? I am excited to chat from you. Reach me quickly via email by clicking the 'let's talk' button below",
 };
 
 export const skills = [
@@ -213,16 +212,11 @@ export const skills = [
   "React",
   "Next.js",
   "Node.js",
-  "Express JS",
-  "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "React Native",
-  "Expo",
+  "Express",
+  "Tailwind",
   "MongoDB",
   "PostgreSQL",
   "Redis",
-  "Redux",
   "Redux Toolkit",
   "Firebase",
   "Prisma",
