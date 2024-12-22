@@ -1,3 +1,4 @@
+import { SectionHeading } from "@/components";
 import Image from "next/image";
 
 type Props = {
@@ -7,9 +8,7 @@ type Props = {
 const Shots = (props: Props) => {
   return (
     <section>
-      <h2 className="mb-8 text-4xl font-medium text-black dark:text-white">
-        Project Shots
-      </h2>
+      <SectionHeading className="text-4xl">Project Shots</SectionHeading>
 
       <div className="grid gap-4 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 bg-fadedWhite dark:bg-gray py-6 px-4 rounded-3xl">
         {props.currentProject.images?.map((shot, index) => {
