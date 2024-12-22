@@ -8,7 +8,7 @@ type Props = {
 const Shots = (props: Props) => {
   return (
     <section>
-      <SectionHeading className="text-4xl">Project Shots</SectionHeading>
+      <SectionHeading className="text-4xl">Shots</SectionHeading>
 
       <div className="grid gap-4 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 bg-fadedWhite dark:bg-gray py-6 px-4 rounded-3xl">
         {props.currentProject.images?.map((shot, index) => {
