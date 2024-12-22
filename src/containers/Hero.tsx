@@ -12,7 +12,7 @@ const Hero = () => {
         {INTRO.subheading}
       </h2>
 
-      <p className="max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide">
+      <p className="max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide leading-relaxed">
         {INTRO.description}
       </p>
 

@@ -14,12 +14,12 @@ type Props = {
 const ProjectCard = (props: Props) => {
   return (
     <Link href={props.to}>
-      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 py-10 space-y-6">
+      <article className="bg-fadedWhite dark:bg-gray rounded-3xl px-6 py-8 space-y-6">
         <h3 className="text-black dark:text-white text-2xl font-medium pt-20 tracking-wide">
           {props.title}
         </h3>
 
-        <p className="text-fadedBlack dark:text-fadedWhite tracking-wide">
+        <p className="text-fadedBlack dark:text-fadedWhite tracking-wide leading-relaxed">
           {props.meta}
         </p>
 
