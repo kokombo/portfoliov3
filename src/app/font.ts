@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { Cabin, Inter_Tight } from "next/font/google";
+import { Cabin } from "next/font/google";
 
 const NeutonRegular = localFont({
   src: [
@@ -19,7 +19,7 @@ const NeutonBold = localFont({
   ],
 });
 
-const font = Inter_Tight({
+const font = Cabin({
   weight: ["400", "500", "700"],
   style: "normal",
   subsets: ["latin"],

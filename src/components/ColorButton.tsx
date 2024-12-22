@@ -13,7 +13,7 @@ const ColorButton = (props: Props) => {
     <Link
       href={props.to}
       target={props.target}
-      className="py-4 px-8 rounded-[30px] text-base text-fadedWhite bg-gradient-to-r from-fadedPurple to-purple hover:opacity-80"
+      className="py-4 px-8 rounded-[30px] text-fadedWhite bg-gradient-to-r from-fadedPurple to-purple hover:opacity-80"
     >
       {props.leftIcon} {props.label} {props.rightIcon}
     </Link>

@@ -19,8 +19,8 @@ const ProjectCard = (props: Props) => {
           {props.title}
         </h3>
 
-        <p className="text-fadedBlack lg:text-lg dark:text-fadedWhite mb-6 tracking-wide">
-          {props.meta}{" "}
+        <p className="text-fadedBlack dark:text-fadedWhite mb-6 tracking-wide">
+          {props.meta}
         </p>
 
         <motion.div

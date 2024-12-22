@@ -4,7 +4,7 @@ import { INTRO } from "@/constant/data";
 const Hero = () => {
   return (
     <section className="section flex flex-col items-center justify-center text-center gap-8">
-      <h1 className="text-lg font-bold text-fadedViolet tracking-wide">
+      <h1 className="text-lg text-fadedViolet tracking-wide">
         {INTRO.heading}
       </h1>
 
@@ -12,9 +12,9 @@ const Hero = () => {
         {INTRO.subheading}
       </h2>
 
-      <h3 className="lg:text-lg max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide">
+      <p className="max-w-[650px] text-fadedBlack dark:text-fadedWhite tracking-wide">
         {INTRO.description}
-      </h3>
+      </p>
 
       <ColorButton
         label="Let's Talk"

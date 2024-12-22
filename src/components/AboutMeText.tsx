@@ -6,11 +6,11 @@ const AboutMeText = () => {
     <article>
       <SectionHeading>About Me</SectionHeading>
 
-      <p className="mb-6 text-fadedBlack dark:text-fadedWhite lg:text-lg tracking-wide">
+      <p className="mb-6 text-fadedBlack dark:text-fadedWhite tracking-wide">
         {ABOUT.paragraph1}
       </p>
 
-      <p className="mb-6 text-fadedBlack dark:text-fadedWhite lg:text-lg tracking-wide">
+      <p className="mb-6 text-fadedBlack dark:text-fadedWhite tracking-wide">
         {ABOUT.paragraph2}
       </p>
     </article>

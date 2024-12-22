@@ -5,7 +5,7 @@ const CallToAction = () => {
   return (
     <section className="section overflow-hidden">
       <div className="bg-[url('/assets/images/ctabackground.png')] bg-no-repeat bg-center bg-cover text-center h-fit rounded-3xl px-4 py-12 flex flex-col items-center bg-[#121212] dark:bg-[#363D41]">
-        <p className="mb-14 max-w-[800px] text-2xl font-medium text-white capitalize tracking-wide">
+        <p className="mb-14 max-w-[800px] text-2xl text-white capitalize tracking-wide">
           {CTA.text}
         </p>
 
