@@ -1,5 +1,4 @@
 import images from "./images";
-import slugify from "slugify";
 import { SiSubstack, SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
@@ -10,7 +9,7 @@ export const projectData: ProjectType[] = [
     title: "Shopivol",
     description:
       "Easy, quick way for small business owners to create a business website and get an AI personal assistant.",
-    slug: slugify("Shopivol", { lower: true }),
+    slug: "shopivol",
     images: [images.shopivol],
     stack: "TypeScript, Next.js, PostgreSQL, Tailwind CSS, ShadCN",
     live: "https://www.shopivol.com",
@@ -20,7 +19,7 @@ export const projectData: ProjectType[] = [
     title: "Bowal Forms",
     description:
       "A simple web application modelled as an alternative to Google Forms for creating and sharing forms.",
-    slug: slugify("Bowal Forms", { lower: true }),
+    slug: "bowal-forms",
     images: [images.bowalform1, images.bowalform2, images.bowalform3],
     stack: "TypeScript, Next.js, PostgreSQL, Tailwind CSS, Next UI",
     live: "https://bowal-forms.vercel.app",
@@ -31,7 +30,7 @@ export const projectData: ProjectType[] = [
     title: "Croch",
     description:
       "Croch is an online marketplace for crochet vendors to list, market, and sell their crafts to customers.",
-    slug: slugify("Croch", { lower: true }),
+    slug: "croch",
     images: [
       images.croch1,
       images.croch2,
@@ -50,8 +49,8 @@ export const projectData: ProjectType[] = [
     image: images.ternhub1,
     title: "TheTernHub",
     description:
-      "A job platform for new tech talents to discover exciting and latest internship opportunities and junior roles. ",
-    slug: slugify("TheTernHub", { lower: true }),
+      "A job platform for new tech talents to discover exciting and latest internship opportunities and junior roles.",
+    slug: "theternhub",
     images: [
       images.ternhub1,
       images.ternhub2,
@@ -78,7 +77,7 @@ export const projectData: ProjectType[] = [
     title: "Bowal Mobile App",
     description:
       "A multi-vendor e-commerce marketplace that leverages geo-location technology to online buying and selling.",
-    slug: slugify("Bowal Mobile App", { lower: true }),
+    slug: "bowal-mobile-app",
     images: [
       images.bowal1,
       images.bowal2,
@@ -112,8 +111,8 @@ export const projectData: ProjectType[] = [
     image: images.textscrapper,
     title: "Text Scrapper",
     description:
-      "Save time by seamlessly extracting texts from your screenshots with this web application. ",
-    slug: slugify("Text Extractor", { lower: true }),
+      "Save time by seamlessly extracting texts from your screenshots with this web application.",
+    slug: "text-scrapper",
     images: [
       images.textscrapper,
       images.textscrapper,
@@ -130,7 +129,7 @@ export const projectData: ProjectType[] = [
     title: "Exco mobile application",
     description:
       "Exco is an NFT gaming platform where users can stake tokens to play games and earn real cash.",
-    slug: slugify("Exco mobile application", { lower: true }),
+    slug: "exco-mobile-application",
     images: [
       images.exco1,
       images.exco2,
@@ -152,7 +151,7 @@ export const projectData: ProjectType[] = [
     title: "TernHub Mobile App",
     description:
       "A job platform for newbies in the tech industry to discover latest internship opportunities and junior roles.",
-    slug: slugify("ternhub mobile app", { lower: true }),
+    slug: "ternhub-mobile-app",
     images: [
       images.ternmobile2,
       images.ternmobile3,

@@ -1,60 +1,55 @@
 import { PreviewLink, ScrollTop, TextGroup } from "@/components";
-import { useParams } from "next/navigation";
 import { projectData } from "@/constant/data";
-import { Fragment } from "react";
 import { Shots } from "@/containers";
+import { notFound } from "next/navigation";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
-export async function generateStaticParams() {
-  return projectData.map((project) => ({ slug: project.slug }));
+export function generateStaticParams() {
+  return projectData.map((project) => project.slug);
 }
 
-const ProjectPage = async ({ params }: Props) => {
-  const { slug } = await params;
-
+const Page = async ({ params }: Props) => {
   const currentProject = projectData.find(
-    (project) => project.slug === slug.toString()
+    (project) => project.slug === params.slug.toString()
   );
 
+  if (!currentProject) notFound();
+
   return (
-    <Fragment>
-      {currentProject && (
-        <main className="section flex flex-col gap-10">
-          <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-end lg:gap-4">
-            <article className="flex flex-col gap-10">
-              <TextGroup
-                heading="Project Title"
-                subheading={currentProject.title}
-              />
-              <TextGroup
-                heading="Description"
-                subheading={currentProject.description}
-              />
+    <main className="section flex flex-col gap-10">
+      <div className="flex flex-col gap-10 lg:flex-row lg:justify-between lg:items-end lg:gap-4">
+        <article className="flex flex-col gap-10">
+          <TextGroup
+            heading="Project Title"
+            subheading={currentProject.title}
+          />
+          <TextGroup
+            heading="Description"
+            subheading={currentProject.description}
+          />
 
-              <TextGroup heading="Stack" subheading={currentProject.stack} />
-            </article>
+          <TextGroup heading="Stack" subheading={currentProject.stack} />
+        </article>
 
-            <div className="flex items-center gap-8">
-              {currentProject.live && (
-                <PreviewLink label="Preview" href={currentProject.live} />
-              )}
+        <div className="flex items-center gap-8">
+          {currentProject.live && (
+            <PreviewLink label="Preview" href={currentProject.live} />
+          )}
 
-              {currentProject.github && (
-                <PreviewLink label="GitHub" href={currentProject.github} />
-              )}
-            </div>
-          </div>
+          {currentProject.github && (
+            <PreviewLink label="GitHub" href={currentProject.github} />
+          )}
+        </div>
+      </div>
 
-          <Shots currentProject={currentProject} />
+      <Shots currentProject={currentProject} />
 
-          <ScrollTop />
-        </main>
-      )}
-    </Fragment>
+      <ScrollTop />
+    </main>
   );
 };
 
-export default ProjectPage;
+export default Page;
