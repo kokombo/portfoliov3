@@ -1,12 +1,19 @@
-"use client";
 import { PreviewLink, ScrollTop, TextGroup } from "@/components";
 import { useParams } from "next/navigation";
 import { projectData } from "@/constant/data";
 import { Fragment } from "react";
 import { Shots } from "@/containers";
 
-const ProjectPage = () => {
-  const { slug } = useParams();
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateStaticParams() {
+  return projectData.map((project) => ({ slug: project.slug }));
+}
+
+const ProjectPage = async ({ params }: Props) => {
+  const { slug } = await params;
 
   const currentProject = projectData.find(
     (project) => project.slug === slug.toString()

@@ -10,7 +10,7 @@ const TextGroup = (props: Props) => {
         {props.heading}
       </h2>
 
-      <p className="text-fadedBlack dark:text-fadedWhite text-lg text-wrap tracking-wide">
+      <p className="text-fadedBlack dark:text-fadedWhite text-wrap tracking-wide">
         {props.subheading}
       </p>
     </div>
