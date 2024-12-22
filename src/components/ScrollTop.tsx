@@ -1,3 +1,5 @@
+"use client";
+
 import { useScrollHeight } from "@/utilities/hooks";
 import { Fragment } from "react";
 import { FaArrowUp } from "react-icons/fa";
