@@ -19,7 +19,7 @@ const NeutonBold = localFont({
   ],
 });
 
-const font = Arimo({
+const font = Cabin({
   weight: ["400", "500", "700"],
   style: "normal",
   subsets: ["latin"],

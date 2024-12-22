@@ -3,7 +3,9 @@ type Props = {
 };
 
 const TechnicalSkill = (props: Props) => {
-  return <h4 className="text-base lg:text-xl font-medium">{props.label}</h4>;
+  return (
+    <span className="text-base lg:text-xl font-medium">{props.label}</span>
+  );
 };
 
 export default TechnicalSkill;
