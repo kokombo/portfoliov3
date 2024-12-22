@@ -25,7 +25,7 @@ const ProjectCard = (props: Props) => {
 
         <motion.div
           whileHover={{ scale: 1.1 }}
-          className="inline-block text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
+          className="inline-block p-3 text-3xl rounded-full bg-gradient-to-r from-fadedPurple to-purple"
         >
           <GoArrowUpRight height={16} width={12} color="white" />
         </motion.div>
