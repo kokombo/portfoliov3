@@ -94,6 +94,12 @@ import herobackgroundlight from "../../public/assets/images/herobackgroundlight.
 
 import code from "../../public/assets/images/coder.jpg";
 
+import bowalform1 from "../../public/assets/images/bowal-form1.png";
+import bowalform2 from "../../public/assets/images/bowal-form2.png";
+import bowalform3 from "../../public/assets/images/bowal-form3.png";
+
+import shopivol from "../../public/assets/images/shopivol.png";
+
 const images = {
   bowal1,
   bowal2,
@@ -190,6 +196,12 @@ const images = {
   herobackgroundlight,
 
   code,
+
+  bowalform1,
+  bowalform2,
+  bowalform3,
+
+  shopivol,
 };
 
 export default images;

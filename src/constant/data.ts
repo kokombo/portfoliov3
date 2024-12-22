@@ -6,11 +6,31 @@ import { BsTwitterX } from "react-icons/bs";
 
 export const projectData: ProjectType[] = [
   {
-    id: "1",
+    image: images.croch1,
+    title: "Shopivol",
+    description:
+      "Easy, quick way for small business owners to create a business website and get an AI personal assistant.",
+    slug: slugify("Shopivol", { lower: true }),
+    images: [images.shopivol],
+    stack: "TypeScript, Next.js, PostgreSQL, Tailwind CSS, ShadCN",
+    live: "https://www.shopivol.com",
+  },
+  {
+    image: images.croch1,
+    title: "Bowal Forms",
+    description:
+      "A simple web application modelled as an alternative to Google Forms for creating and sharing forms.",
+    slug: slugify("Bowal Forms", { lower: true }),
+    images: [images.bowalform1, images.bowalform2, images.bowalform3],
+    stack: "TypeScript, Next.js, PostgreSQL, Tailwind CSS, Next UI",
+    live: "https://bowal-forms.vercel.app",
+  },
+
+  {
     image: images.croch1,
     title: "Croch",
     description:
-      "Croch provides an online marketplace for crochet vendors to list, market, and sell their crafts to customers.",
+      "Croch is an online marketplace for crochet vendors to list, market, and sell their crafts to customers.",
     slug: slugify("Croch", { lower: true }),
     images: [
       images.croch1,
@@ -27,7 +47,6 @@ export const projectData: ProjectType[] = [
   },
 
   {
-    id: "2",
     image: images.ternhub1,
     title: "TheTernHub",
     description:
@@ -55,7 +74,6 @@ export const projectData: ProjectType[] = [
   },
 
   {
-    id: "3",
     image: images.bowal1,
     title: "Bowal Mobile App",
     description:
@@ -91,7 +109,6 @@ export const projectData: ProjectType[] = [
   },
 
   {
-    id: "4",
     image: images.textscrapper,
     title: "Text Scrapper",
     description:
@@ -109,7 +126,6 @@ export const projectData: ProjectType[] = [
   },
 
   {
-    id: "5",
     image: images.exco2,
     title: "Exco mobile application",
     description:
@@ -132,7 +148,6 @@ export const projectData: ProjectType[] = [
   },
 
   {
-    id: "6",
     image: images.ternmobile1,
     title: "TernHub Mobile App",
     description:
@@ -191,7 +206,7 @@ export const INTRO = {
   heading: "Hi, I'm Samuel ✌️",
   subheading: "A Software Developer | Full Stack Website Developer",
   description:
-    "I am currently exploring ideas to help small businesses work more efficiently with AI assistance. I am open to a remote full-time or freelance role.",
+    "I'm currently exploring ideas to help small businesses work more efficiently with AI assistance. I'm open to a remote full-time or freelance role.",
 };
 
 export const ABOUT = {

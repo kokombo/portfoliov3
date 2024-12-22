@@ -1,5 +1,4 @@
 type ProjectType = {
-  id: string;
   image: string | StaticImageData;
   title: string;
   description: string;

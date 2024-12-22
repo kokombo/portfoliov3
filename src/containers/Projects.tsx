@@ -7,9 +7,9 @@ const Projects = () => {
       <SectionHeading>A Few Projects</SectionHeading>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <div key={project.id}>
+            <div key={index.toString()}>
               <ProjectCard
                 title={project.title}
                 meta={project.description}
