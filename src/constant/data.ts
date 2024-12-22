@@ -189,7 +189,7 @@ export const socials: SocialsType[] = [
 
 export const INTRO = {
   heading: "Hi, I'm Samuel ✌️",
-  subheading: "Software Developer | Full Stack Website Developer",
+  subheading: "A Software Developer | Full Stack Website Developer",
   description:
     "I am currently exploring ideas to help small businesses work more efficiently with AI assistance. I am open to a remote full-time or freelance role.",
 };
@@ -203,7 +203,7 @@ export const ABOUT = {
 };
 
 export const CTA = {
-  text: "Want to discuss hiring me for your project or team? I am excited to chat from you. Reach me quickly via email by clicking the 'let's talk' button below",
+  text: "Want to discuss hiring me for your project or team? I am excited to chat with you. Reach me via email by clicking the 'let's talk' button below",
 };
 
 export const skills = [
