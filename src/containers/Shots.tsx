@@ -21,7 +21,7 @@ const Shots = (props: Props) => {
               width={500}
               quality={100}
               placeholder="blur"
-              className="object-contain "
+              className="object-contain"
             />
           );
         })}

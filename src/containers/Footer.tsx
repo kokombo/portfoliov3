@@ -17,7 +17,7 @@ const Footer = () => {
         })}
       </div>
 
-      <h6 className="text-black dark:text-white">All Rights Reserved ©2024</h6>
+      <p className="text-black dark:text-white">All Rights Reserved ©2024</p>
     </footer>
   );
 };
