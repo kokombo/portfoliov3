@@ -8,9 +8,7 @@ const useScrollHeight = () => {
     initialState = window.scrollY;
   }
 
-  const [scrollHeight, setScrollHeight] = useState<number | undefined>(
-    initialState
-  );
+  const [scrollHeight, setScrollHeight] = useState(initialState);
 
   useEffect(() => {
     const handleScrollHeight = () => {

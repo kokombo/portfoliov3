@@ -1,7 +1,7 @@
 "use client";
 
 const Loading = () => {
-  return <div />;
+  return <div className="h-screen" />;
 };
 
 export default Loading;

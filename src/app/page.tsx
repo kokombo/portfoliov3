@@ -1,14 +1,16 @@
 "use client";
-import { Header, Projects, TechnicalSkills, About } from "@/containers";
+
+import { Hero, Projects, TechnicalSkills, About } from "@/containers";
+import { Fragment } from "react";
 
 const Home = () => {
   return (
-    <main>
-      <Header />
+    <Fragment>
+      <Hero />
       <TechnicalSkills />
       <Projects />
       <About />
-    </main>
+    </Fragment>
   );
 };
 

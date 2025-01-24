@@ -203,17 +203,17 @@ export const socials: SocialsType[] = [
 
 export const INTRO = {
   heading: "Hi, I'm Samuel ✌️",
-  subheading: "A Software Developer | Full Stack Website Developer",
+  subheading: "A Software Developer, Full Stack Website Developer",
   description:
-    "I'm currently exploring ideas to help small businesses work more efficiently with AI assistance. I'm open to a remote full-time or freelance role.",
+    "I'm currently exploring ideas to help small businesses work more efficiently using LLMS and AI. I'm open to a remote full-time or freelance role.",
 };
 
 export const ABOUT = {
   paragraph1:
-    "Samuel is a skilled full stack developer who excel in creating optimized, user-friendly web experiences. I am particularly interested in exploring the endless possibilities of AI and building eCommerce solutions. I am currently building Shopivol to help small businesses operate at almost the same level as large corporations with AI assistance.",
+    "I'm Samuel, the founder and chief technological officer of Shopivol, a platform for small business owners to generate business websites in minutes and get an AI-powered personal assistant. I am building Shopivol to help small businesses operate at almost the same level as large corporations with AI assistance.",
 
   paragraph2:
-    "When I'm not coding, you'll find me watching mysterios vidoes on YouTube, learning new cool tech tricks, or reading indie hackers' tweets/banters on X. I am currently open to remote opportunities. I thrive in a fast-paced environment and am eager to contribute to an ambitious team. Let's connect to discuss how my passion and skills align with your goals.",
+    " Samuel is an enthusiastic full stack developer who excel in creating optimized, user-friendly web experiences. When I'm not coding, you'll find me watching comedic vidoes on YouTube, learning new cool tech tricks, or reading indie hackers' tweets/bants on X. I am currently open to remote opportunities. I thrive in a fast-paced environment and am eager to contribute to an ambitious team. Let's connect to discuss how my passion and skills align with your goals.",
 };
 
 export const CTA = {

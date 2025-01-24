@@ -1,5 +1,5 @@
 import NavigationBar from "./NavigationBar";
-import Header from "./Header";
+import Hero from "./Hero";
 import About from "./About";
 import CallToAction from "./CallToAction";
 import Footer from "./Footer";
@@ -10,7 +10,7 @@ import Experience from "./Experience";
 
 export {
   NavigationBar,
-  Header,
+  Hero,
   About,
   CallToAction,
   Footer,

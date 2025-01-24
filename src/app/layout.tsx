@@ -45,8 +45,10 @@ export default function RootLayout({
       <body className={font.className}>
         <ThemeProvider>
           <NavigationBar />
-          {children}
-          <CallToAction />
+          <main>
+            {children}
+            <CallToAction />
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
