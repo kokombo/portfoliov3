@@ -6,7 +6,7 @@ type Props = {
 const TextGroup = (props: Props) => {
   return (
     <div>
-      <h2 className="mb-4 text-4xl font-medium text-black dark:text-white text-wrap tracking-wide ">
+      <h2 className="mb-4 text-2xl md:text-3xl font-medium text-black dark:text-white text-wrap tracking-wide">
         {props.heading}
       </h2>
 
